@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+Color.h
 //  YKLeftMenu
 //
 //  Created by Mark on 15/3/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface UIImage (Color)
++ (UIImage *)imageWithColor:(UIColor *)color;
 @end
-
