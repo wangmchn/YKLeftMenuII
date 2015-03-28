@@ -15,9 +15,9 @@
 		4DC8DE601AC6CB0D00FFED52 /* YKLeftMenuIITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8DE5F1AC6CB0D00FFED52 /* YKLeftMenuIITests.m */; };
 		4DC8DE6B1AC6CB4000FFED52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8DE6A1AC6CB4000FFED52 /* ViewController.m */; };
 		4DC8DE6F1AC6CB6F00FFED52 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8DE6E1AC6CB6F00FFED52 /* UIImage+Color.m */; };
-		4DC8DE731AC6CB8700FFED52 /* YKLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8DE721AC6CB8700FFED52 /* YKLeftMenu.m */; };
 		4DC8DE751AC6CBD200FFED52 /* top_navigation_menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8DE741AC6CBD200FFED52 /* top_navigation_menuicon@2x.png */; };
 		4DC8DE771AC6CBED00FFED52 /* sidebar_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8DE761AC6CBED00FFED52 /* sidebar_bg@2x.jpg */; };
+		4DC8DE7B1AC6D00200FFED52 /* YKLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8DE7A1AC6D00200FFED52 /* YKLeftMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +46,10 @@
 		4DC8DE6A1AC6CB4000FFED52 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DC8DE6D1AC6CB6F00FFED52 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		4DC8DE6E1AC6CB6F00FFED52 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		4DC8DE711AC6CB8700FFED52 /* YKLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLeftMenu.h; sourceTree = "<group>"; };
-		4DC8DE721AC6CB8700FFED52 /* YKLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLeftMenu.m; sourceTree = "<group>"; };
 		4DC8DE741AC6CBD200FFED52 /* top_navigation_menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_menuicon@2x.png"; sourceTree = "<group>"; };
 		4DC8DE761AC6CBED00FFED52 /* sidebar_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sidebar_bg@2x.jpg"; sourceTree = "<group>"; };
+		4DC8DE791AC6D00200FFED52 /* YKLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLeftMenu.h; sourceTree = "<group>"; };
+		4DC8DE7A1AC6D00200FFED52 /* YKLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLeftMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		4DC8DE421AC6CB0D00FFED52 /* YKLeftMenuII */ = {
 			isa = PBXGroup;
 			children = (
-				4DC8DE701AC6CB8700FFED52 /* View */,
+				4DC8DE781AC6D00200FFED52 /* View */,
 				4DC8DE6C1AC6CB6F00FFED52 /* Category */,
 				4DC8DE471AC6CB0D00FFED52 /* AppDelegate.h */,
 				4DC8DE481AC6CB0D00FFED52 /* AppDelegate.m */,
@@ -142,14 +142,13 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		4DC8DE701AC6CB8700FFED52 /* View */ = {
+		4DC8DE781AC6D00200FFED52 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4DC8DE711AC6CB8700FFED52 /* YKLeftMenu.h */,
-				4DC8DE721AC6CB8700FFED52 /* YKLeftMenu.m */,
+				4DC8DE791AC6D00200FFED52 /* YKLeftMenu.h */,
+				4DC8DE7A1AC6D00200FFED52 /* YKLeftMenu.m */,
 			);
-			name = View;
-			path = Category/View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC8DE6B1AC6CB4000FFED52 /* ViewController.m in Sources */,
-				4DC8DE731AC6CB8700FFED52 /* YKLeftMenu.m in Sources */,
+				4DC8DE7B1AC6D00200FFED52 /* YKLeftMenu.m in Sources */,
 				4DC8DE6F1AC6CB6F00FFED52 /* UIImage+Color.m in Sources */,
 				4DC8DE491AC6CB0D00FFED52 /* AppDelegate.m in Sources */,
 				4DC8DE461AC6CB0D00FFED52 /* main.m in Sources */,

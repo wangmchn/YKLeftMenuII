@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3843D3E7-A1BC-4E11-820A-DCC68D02F412</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YKLeftMenuII</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A412B60D1FDCA3A65C7B17BA802D791109350CB</key>
+		<string>https://github.com/wangmchn/YKLeftMenuII.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YKLeftMenuII.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A412B60D1FDCA3A65C7B17BA802D791109350CB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wangmchn/YKLeftMenuII.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A412B60D1FDCA3A65C7B17BA802D791109350CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A412B60D1FDCA3A65C7B17BA802D791109350CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YKLeftMenuII</string>
+		</dict>
+	</array>
+</dict>
+</plist>
