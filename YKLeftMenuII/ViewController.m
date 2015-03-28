@@ -81,8 +81,8 @@
     CGFloat height = self.view.frame.size.height;
     if (recognizer.state == UIGestureRecognizerStateBegan) {
         CGAffineTransform transform = view.transform;
-        // transform.tx经过scale后应复原
-        // 由于中途松手会恢复(到起始或者末尾位置)，所以这里只对起始位置和末尾位置做了判断
+        // transform.tx经过scale后应复原 x = transform.tx + width * (1 - scale) / 2
+        // 由于中途松手会恢复(到起始或者末尾位置)，所以这里只是对起始位置和末尾位置做了简单地判断
         [recognizer setTranslation:CGPointMake(transform.tx == 0?0:leftMenuW, transform.ty) inView:self.view];
         translation = [recognizer translationInView:self.view];
     }else if (recognizer.state == UIGestureRecognizerStateChanged) {
